@@ -28,6 +28,69 @@
   color: #61dafb;
 }
 
+.link,
+.link:link,
+.link:visited {
+  color: white;
+  text-decoration: none;
+}
+.link:hover {
+  color: yellow;
+}
+.s {
+  color: yellow;
+}
+.link .active {
+  color: yellow;
+  text-decoration: underline;
+}
+
+.page {
+  /* background-color: #282c34; */
+  color: rgb(14, 14, 18);
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.denied {
+  color: red;
+  margin: 15px;
+}
+
+/* form {
+  display: flex;
+} */
+
+/* form {
+  border: 3px solid #f1f1f1;
+} */
+.container {
+  padding: 16px;
+}
+input[type="text"],
+input[type="password"] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #04aa6d;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px px;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
