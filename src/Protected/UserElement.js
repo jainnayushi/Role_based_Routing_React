@@ -12,8 +12,11 @@ function UserElement({ children }) {
   } else {
     return (
       <div>
-        <div className="denied"> You do not have access to this page</div>
-        <Login />
+        {localStorage.getItem("islogged") ? (
+          <div className="denied"> You do not have access to this page</div>
+        ) : (
+          <div></div>
+        )}
       </div>
     );
   }
